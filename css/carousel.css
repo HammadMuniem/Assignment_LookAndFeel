@@ -84,7 +84,19 @@ body {
 }
 
 @media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+
+    @media (min-width: 62em) {
+        .featurette-heading {
+            margin-top: 7rem;
+        }
+    }
+
+    @media (min-width: 62em) {
+        .featurette-heading2 {
+            margin-top: -0.5rem; font-size:50px;
+        }
+    }
 }
